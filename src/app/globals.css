@@ -1,12 +1,12 @@
 :root {
-  --bg:          #f7f4ef;
-  --bg2:         #f0ece4;
-  --ink:         #1a1814;
-  --ink2:        #3d3a34;
-  --muted:       #8c8680;
-  --gold:        #b8962e;
-  --gold-dim:    rgba(184,150,46,0.12);
-  --border:      rgba(26,24,20,0.1);
+  --bg:          #fff8f5;
+  --bg2:         #fdeee7;
+  --ink:         #2b1810;
+  --ink2:        #5c3a2a;
+  --muted:       #9c7d6d;
+  --gold:        #e8623a;
+  --gold-dim:    rgba(232,98,58,0.12);
+  --border:      rgba(43,24,16,0.1);
   --font-serif:  'Cormorant Garamond', Georgia, serif;
   --font-sans:   'Epilogue', system-ui, sans-serif;
   --font-mono:   'DM Mono', monospace;
