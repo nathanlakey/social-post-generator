@@ -1,0 +1,43 @@
+:root {
+  --bg:          #f7f4ef;
+  --bg2:         #f0ece4;
+  --ink:         #1a1814;
+  --ink2:        #3d3a34;
+  --muted:       #8c8680;
+  --gold:        #b8962e;
+  --gold-dim:    rgba(184,150,46,0.12);
+  --border:      rgba(26,24,20,0.1);
+  --font-serif:  'Cormorant Garamond', Georgia, serif;
+  --font-sans:   'Epilogue', system-ui, sans-serif;
+  --font-mono:   'DM Mono', monospace;
+  --r:           6px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.spinner {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 2px solid rgba(247,244,239,0.3);
+  border-top-color: var(--bg);
+  border-radius: 50%;
+  animation: spin 0.6s linear infinite;
+}
