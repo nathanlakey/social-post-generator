@@ -86,8 +86,6 @@ export default function PostGenerator() {
           letterSpacing: '0.1em', textTransform: 'uppercase', marginBottom: '1rem',
           display: 'flex', alignItems: 'center', gap: '10px',
         }}>
-          <span style={{ width: '24px', height: '1px', background: 'var(--gold)', display: 'block' }} />
-          AI Tool Demo
         </div>
         <h1 style={{
           fontFamily: 'var(--font-serif)', fontSize: 'clamp(2.4rem, 5vw, 3.6rem)',
